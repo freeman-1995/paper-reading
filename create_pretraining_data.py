@@ -279,9 +279,11 @@ def create_instances_from_document(
         a_end = 1
         if len(current_chunk) >= 2:
           a_end = rng.randint(1, len(current_chunk) - 1)
+      
+        print("len(current_chunk):{} a_end:{}".format(len(current_chunk), a_end))
 
         tokens_a = []
-        for j in range(a_end):
+        for j in range(a_end):  # 选前面的句子
           tokens_a.extend(current_chunk[j])
 
         tokens_b = []

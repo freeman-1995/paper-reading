@@ -1,0 +1,2578 @@
+read from file line:
+This text is included to make sure Unicode is handled properly: 力加勝北区ᴵᴺᵀᵃছজটডণত
+
+
+line after convert to unicode:
+This text is included to make sure Unicode is handled properly: 力加勝北区ᴵᴺᵀᵃছজটডণত
+
+
+basic unicode convert:
+This text is included to make sure Unicode is handled properly: 力加勝北区ᴵᴺᵀᵃছজটডণত
+
+basic clean:
+This text is included to make sure Unicode is handled properly: 力加勝北区ᴵᴺᵀᵃছজটডণত
+
+basic chinese:
+This text is included to make sure Unicode is handled properly:  力  加  勝  北  区 ᴵᴺᵀᵃছজটডণত
+
+basic whitespace_tokenize:
+This text is included to make sure Unicode is handled properly:  力  加  勝  北  区 ᴵᴺᵀᵃছজটডণত
+
+basic lower token:
+this
+basic accents:
+this
+basic punc:
+['this']
+
+basic lower token:
+text
+basic accents:
+text
+basic punc:
+['text']
+
+basic lower token:
+is
+basic accents:
+is
+basic punc:
+['is']
+
+basic lower token:
+included
+basic accents:
+included
+basic punc:
+['included']
+
+basic lower token:
+to
+basic accents:
+to
+basic punc:
+['to']
+
+basic lower token:
+make
+basic accents:
+make
+basic punc:
+['make']
+
+basic lower token:
+sure
+basic accents:
+sure
+basic punc:
+['sure']
+
+basic lower token:
+unicode
+basic accents:
+unicode
+basic punc:
+['unicode']
+
+basic lower token:
+is
+basic accents:
+is
+basic punc:
+['is']
+
+basic lower token:
+handled
+basic accents:
+handled
+basic punc:
+['handled']
+
+basic lower token:
+properly:
+basic accents:
+properly:
+basic punc:
+['properly', ':']
+
+basic lower token:
+力
+basic accents:
+力
+basic punc:
+['力']
+
+basic lower token:
+加
+basic accents:
+加
+basic punc:
+['加']
+
+basic lower token:
+勝
+basic accents:
+勝
+basic punc:
+['勝']
+
+basic lower token:
+北
+basic accents:
+北
+basic punc:
+['北']
+
+basic lower token:
+区
+basic accents:
+区
+basic punc:
+['区']
+
+basic lower token:
+ᴵᴺᵀᵃছজটডণত
+basic accents:
+ᴵᴺᵀᵃছজটডণত
+basic punc:
+['ᴵᴺᵀᵃছজটডণত']
+
+basic split tokens:
+['this', 'text', 'is', 'included', 'to', 'make', 'sure', 'unicode', 'is', 'handled', 'properly', ':', '力', '加', '勝', '北', '区', 'ᴵᴺᵀᵃছজটডণত']
+
+basic tokenize output:
+['this', 'text', 'is', 'included', 'to', 'make', 'sure', 'unicode', 'is', 'handled', 'properly', ':', '力', '加', '勝', '北', '区', 'ᴵᴺᵀᵃছজটডণত']
+
+wordpiece tokenize input:
+this
+
+wordpiece unicode convert:
+this
+
+wordpiece whitespace:
+this
+substr:this start:0 end:4
+this is in vocab
+wordpiece tokenize output:
+['this']
+
+wordpiece tokenize input:
+text
+
+wordpiece unicode convert:
+text
+
+wordpiece whitespace:
+text
+substr:text start:0 end:4
+text is in vocab
+wordpiece tokenize output:
+['text']
+
+wordpiece tokenize input:
+is
+
+wordpiece unicode convert:
+is
+
+wordpiece whitespace:
+is
+substr:is start:0 end:2
+is is in vocab
+wordpiece tokenize output:
+['is']
+
+wordpiece tokenize input:
+included
+
+wordpiece unicode convert:
+included
+
+wordpiece whitespace:
+included
+substr:included start:0 end:8
+included is in vocab
+wordpiece tokenize output:
+['included']
+
+wordpiece tokenize input:
+to
+
+wordpiece unicode convert:
+to
+
+wordpiece whitespace:
+to
+substr:to start:0 end:2
+to is in vocab
+wordpiece tokenize output:
+['to']
+
+wordpiece tokenize input:
+make
+
+wordpiece unicode convert:
+make
+
+wordpiece whitespace:
+make
+substr:make start:0 end:4
+make is in vocab
+wordpiece tokenize output:
+['make']
+
+wordpiece tokenize input:
+sure
+
+wordpiece unicode convert:
+sure
+
+wordpiece whitespace:
+sure
+substr:sure start:0 end:4
+sure is in vocab
+wordpiece tokenize output:
+['sure']
+
+wordpiece tokenize input:
+unicode
+
+wordpiece unicode convert:
+unicode
+
+wordpiece whitespace:
+unicode
+substr:unicode start:0 end:7
+unicode is in vocab
+wordpiece tokenize output:
+['unicode']
+
+wordpiece tokenize input:
+is
+
+wordpiece unicode convert:
+is
+
+wordpiece whitespace:
+is
+substr:is start:0 end:2
+is is in vocab
+wordpiece tokenize output:
+['is']
+
+wordpiece tokenize input:
+handled
+
+wordpiece unicode convert:
+handled
+
+wordpiece whitespace:
+handled
+substr:handled start:0 end:7
+handled is in vocab
+wordpiece tokenize output:
+['handled']
+
+wordpiece tokenize input:
+properly
+
+wordpiece unicode convert:
+properly
+
+wordpiece whitespace:
+properly
+substr:properly start:0 end:8
+properly is in vocab
+wordpiece tokenize output:
+['properly']
+
+wordpiece tokenize input:
+:
+
+wordpiece unicode convert:
+:
+
+wordpiece whitespace:
+:
+substr:: start:0 end:1
+: is in vocab
+wordpiece tokenize output:
+[':']
+
+wordpiece tokenize input:
+力
+
+wordpiece unicode convert:
+力
+
+wordpiece whitespace:
+力
+substr:力 start:0 end:1
+力 is in vocab
+wordpiece tokenize output:
+['力']
+
+wordpiece tokenize input:
+加
+
+wordpiece unicode convert:
+加
+
+wordpiece whitespace:
+加
+substr:加 start:0 end:1
+加 is in vocab
+wordpiece tokenize output:
+['加']
+
+wordpiece tokenize input:
+勝
+
+wordpiece unicode convert:
+勝
+
+wordpiece whitespace:
+勝
+substr:勝 start:0 end:1
+勝 is in vocab
+wordpiece tokenize output:
+['勝']
+
+wordpiece tokenize input:
+北
+
+wordpiece unicode convert:
+北
+
+wordpiece whitespace:
+北
+substr:北 start:0 end:1
+北 is in vocab
+wordpiece tokenize output:
+['北']
+
+wordpiece tokenize input:
+区
+
+wordpiece unicode convert:
+区
+
+wordpiece whitespace:
+区
+substr:区 start:0 end:1
+区 is in vocab
+wordpiece tokenize output:
+['区']
+
+wordpiece tokenize input:
+ᴵᴺᵀᵃছজটডণত
+
+wordpiece unicode convert:
+ᴵᴺᵀᵃছজটডণত
+
+wordpiece whitespace:
+ᴵᴺᵀᵃছজটডণত
+substr:ᴵᴺᵀᵃছজটডণত start:0 end:10
+substr:ᴵᴺᵀᵃছজটডণ start:0 end:9
+substr:ᴵᴺᵀᵃছজটড start:0 end:8
+substr:ᴵᴺᵀᵃছজট start:0 end:7
+substr:ᴵᴺᵀᵃছজ start:0 end:6
+substr:ᴵᴺᵀᵃছ start:0 end:5
+substr:ᴵᴺᵀᵃ start:0 end:4
+substr:ᴵᴺᵀ start:0 end:3
+substr:ᴵᴺ start:0 end:2
+substr:ᴵ start:0 end:1
+ᴵ is in vocab
+substr:ᴺᵀᵃছজটডণত start:1 end:10
+start:1 substr:##ᴺᵀᵃছজটডণত
+substr:ᴺᵀᵃছজটডণ start:1 end:9
+start:1 substr:##ᴺᵀᵃছজটডণ
+substr:ᴺᵀᵃছজটড start:1 end:8
+start:1 substr:##ᴺᵀᵃছজটড
+substr:ᴺᵀᵃছজট start:1 end:7
+start:1 substr:##ᴺᵀᵃছজট
+substr:ᴺᵀᵃছজ start:1 end:6
+start:1 substr:##ᴺᵀᵃছজ
+substr:ᴺᵀᵃছ start:1 end:5
+start:1 substr:##ᴺᵀᵃছ
+substr:ᴺᵀᵃ start:1 end:4
+start:1 substr:##ᴺᵀᵃ
+substr:ᴺᵀ start:1 end:3
+start:1 substr:##ᴺᵀ
+substr:ᴺ start:1 end:2
+start:1 substr:##ᴺ
+##ᴺ is in vocab
+substr:ᵀᵃছজটডণত start:2 end:10
+start:2 substr:##ᵀᵃছজটডণত
+substr:ᵀᵃছজটডণ start:2 end:9
+start:2 substr:##ᵀᵃছজটডণ
+substr:ᵀᵃছজটড start:2 end:8
+start:2 substr:##ᵀᵃছজটড
+substr:ᵀᵃছজট start:2 end:7
+start:2 substr:##ᵀᵃছজট
+substr:ᵀᵃছজ start:2 end:6
+start:2 substr:##ᵀᵃছজ
+substr:ᵀᵃছ start:2 end:5
+start:2 substr:##ᵀᵃছ
+substr:ᵀᵃ start:2 end:4
+start:2 substr:##ᵀᵃ
+substr:ᵀ start:2 end:3
+start:2 substr:##ᵀ
+##ᵀ is in vocab
+substr:ᵃছজটডণত start:3 end:10
+start:3 substr:##ᵃছজটডণত
+substr:ᵃছজটডণ start:3 end:9
+start:3 substr:##ᵃছজটডণ
+substr:ᵃছজটড start:3 end:8
+start:3 substr:##ᵃছজটড
+substr:ᵃছজট start:3 end:7
+start:3 substr:##ᵃছজট
+substr:ᵃছজ start:3 end:6
+start:3 substr:##ᵃছজ
+substr:ᵃছ start:3 end:5
+start:3 substr:##ᵃছ
+substr:ᵃ start:3 end:4
+start:3 substr:##ᵃ
+##ᵃ is in vocab
+substr:ছজটডণত start:4 end:10
+start:4 substr:##ছজটডণত
+substr:ছজটডণ start:4 end:9
+start:4 substr:##ছজটডণ
+substr:ছজটড start:4 end:8
+start:4 substr:##ছজটড
+substr:ছজট start:4 end:7
+start:4 substr:##ছজট
+substr:ছজ start:4 end:6
+start:4 substr:##ছজ
+substr:ছ start:4 end:5
+start:4 substr:##ছ
+##ছ is in vocab
+substr:জটডণত start:5 end:10
+start:5 substr:##জটডণত
+substr:জটডণ start:5 end:9
+start:5 substr:##জটডণ
+substr:জটড start:5 end:8
+start:5 substr:##জটড
+substr:জট start:5 end:7
+start:5 substr:##জট
+substr:জ start:5 end:6
+start:5 substr:##জ
+##জ is in vocab
+substr:টডণত start:6 end:10
+start:6 substr:##টডণত
+substr:টডণ start:6 end:9
+start:6 substr:##টডণ
+substr:টড start:6 end:8
+start:6 substr:##টড
+substr:ট start:6 end:7
+start:6 substr:##ট
+##ট is in vocab
+substr:ডণত start:7 end:10
+start:7 substr:##ডণত
+substr:ডণ start:7 end:9
+start:7 substr:##ডণ
+substr:ড start:7 end:8
+start:7 substr:##ড
+##ড is in vocab
+substr:ণত start:8 end:10
+start:8 substr:##ণত
+substr:ণ start:8 end:9
+start:8 substr:##ণ
+##ণ is in vocab
+substr:ত start:9 end:10
+start:9 substr:##ত
+##ত is in vocab
+wordpiece tokenize output:
+['ᴵ', '##ᴺ', '##ᵀ', '##ᵃ', '##ছ', '##জ', '##ট', '##ড', '##ণ', '##ত']
+
+after tokenize:
+['this', 'text', 'is', 'included', 'to', 'make', 'sure', 'unicode', 'is', 'handled', 'properly', ':', '力', '加', '勝', '北', '区', 'ᴵ', '##ᴺ', '##ᵀ', '##ᵃ', '##ছ', '##জ', '##ট', '##ড', '##ণ', '##ত']
+
+read from file line:
+
+
+
+line after convert to unicode:
+
+
+
+basic unicode convert:
+
+
+basic clean:
+
+
+basic chinese:
+
+
+basic whitespace_tokenize:
+
+
+basic split tokens:
+[]
+
+basic tokenize output:
+[]
+
+after tokenize:
+[]
+
+read from file line:
+
+
+
+line after convert to unicode:
+
+
+
+basic unicode convert:
+
+
+basic clean:
+
+
+basic chinese:
+
+
+basic whitespace_tokenize:
+
+
+basic split tokens:
+[]
+
+basic tokenize output:
+[]
+
+after tokenize:
+[]
+
+read from file line:
+Something glittered in the nearest red pool before him.
+
+
+line after convert to unicode:
+Something glittered in the nearest red pool before him.
+
+
+basic unicode convert:
+Something glittered in the nearest red pool before him.
+
+basic clean:
+Something glittered in the nearest red pool before him.
+
+basic chinese:
+Something glittered in the nearest red pool before him.
+
+basic whitespace_tokenize:
+Something glittered in the nearest red pool before him.
+
+basic lower token:
+something
+basic accents:
+something
+basic punc:
+['something']
+
+basic lower token:
+glittered
+basic accents:
+glittered
+basic punc:
+['glittered']
+
+basic lower token:
+in
+basic accents:
+in
+basic punc:
+['in']
+
+basic lower token:
+the
+basic accents:
+the
+basic punc:
+['the']
+
+basic lower token:
+nearest
+basic accents:
+nearest
+basic punc:
+['nearest']
+
+basic lower token:
+red
+basic accents:
+red
+basic punc:
+['red']
+
+basic lower token:
+pool
+basic accents:
+pool
+basic punc:
+['pool']
+
+basic lower token:
+before
+basic accents:
+before
+basic punc:
+['before']
+
+basic lower token:
+him.
+basic accents:
+him.
+basic punc:
+['him', '.']
+
+basic split tokens:
+['something', 'glittered', 'in', 'the', 'nearest', 'red', 'pool', 'before', 'him', '.']
+
+basic tokenize output:
+['something', 'glittered', 'in', 'the', 'nearest', 'red', 'pool', 'before', 'him', '.']
+
+wordpiece tokenize input:
+something
+
+wordpiece unicode convert:
+something
+
+wordpiece whitespace:
+something
+substr:something start:0 end:9
+something is in vocab
+wordpiece tokenize output:
+['something']
+
+wordpiece tokenize input:
+glittered
+
+wordpiece unicode convert:
+glittered
+
+wordpiece whitespace:
+glittered
+substr:glittered start:0 end:9
+substr:glittere start:0 end:8
+substr:glitter start:0 end:7
+glitter is in vocab
+substr:ed start:7 end:9
+start:7 substr:##ed
+##ed is in vocab
+wordpiece tokenize output:
+['glitter', '##ed']
+
+wordpiece tokenize input:
+in
+
+wordpiece unicode convert:
+in
+
+wordpiece whitespace:
+in
+substr:in start:0 end:2
+in is in vocab
+wordpiece tokenize output:
+['in']
+
+wordpiece tokenize input:
+the
+
+wordpiece unicode convert:
+the
+
+wordpiece whitespace:
+the
+substr:the start:0 end:3
+the is in vocab
+wordpiece tokenize output:
+['the']
+
+wordpiece tokenize input:
+nearest
+
+wordpiece unicode convert:
+nearest
+
+wordpiece whitespace:
+nearest
+substr:nearest start:0 end:7
+nearest is in vocab
+wordpiece tokenize output:
+['nearest']
+
+wordpiece tokenize input:
+red
+
+wordpiece unicode convert:
+red
+
+wordpiece whitespace:
+red
+substr:red start:0 end:3
+red is in vocab
+wordpiece tokenize output:
+['red']
+
+wordpiece tokenize input:
+pool
+
+wordpiece unicode convert:
+pool
+
+wordpiece whitespace:
+pool
+substr:pool start:0 end:4
+pool is in vocab
+wordpiece tokenize output:
+['pool']
+
+wordpiece tokenize input:
+before
+
+wordpiece unicode convert:
+before
+
+wordpiece whitespace:
+before
+substr:before start:0 end:6
+before is in vocab
+wordpiece tokenize output:
+['before']
+
+wordpiece tokenize input:
+him
+
+wordpiece unicode convert:
+him
+
+wordpiece whitespace:
+him
+substr:him start:0 end:3
+him is in vocab
+wordpiece tokenize output:
+['him']
+
+wordpiece tokenize input:
+.
+
+wordpiece unicode convert:
+.
+
+wordpiece whitespace:
+.
+substr:. start:0 end:1
+. is in vocab
+wordpiece tokenize output:
+['.']
+
+after tokenize:
+['something', 'glitter', '##ed', 'in', 'the', 'nearest', 'red', 'pool', 'before', 'him', '.']
+
+read from file line:
+Gold, surely!
+
+
+line after convert to unicode:
+Gold, surely!
+
+
+basic unicode convert:
+Gold, surely!
+
+basic clean:
+Gold, surely!
+
+basic chinese:
+Gold, surely!
+
+basic whitespace_tokenize:
+Gold, surely!
+
+basic lower token:
+gold,
+basic accents:
+gold,
+basic punc:
+['gold', ',']
+
+basic lower token:
+surely!
+basic accents:
+surely!
+basic punc:
+['surely', '!']
+
+basic split tokens:
+['gold', ',', 'surely', '!']
+
+basic tokenize output:
+['gold', ',', 'surely', '!']
+
+wordpiece tokenize input:
+gold
+
+wordpiece unicode convert:
+gold
+
+wordpiece whitespace:
+gold
+substr:gold start:0 end:4
+gold is in vocab
+wordpiece tokenize output:
+['gold']
+
+wordpiece tokenize input:
+,
+
+wordpiece unicode convert:
+,
+
+wordpiece whitespace:
+,
+substr:, start:0 end:1
+, is in vocab
+wordpiece tokenize output:
+[',']
+
+wordpiece tokenize input:
+surely
+
+wordpiece unicode convert:
+surely
+
+wordpiece whitespace:
+surely
+substr:surely start:0 end:6
+surely is in vocab
+wordpiece tokenize output:
+['surely']
+
+wordpiece tokenize input:
+!
+
+wordpiece unicode convert:
+!
+
+wordpiece whitespace:
+!
+substr:! start:0 end:1
+! is in vocab
+wordpiece tokenize output:
+['!']
+
+after tokenize:
+['gold', ',', 'surely', '!']
+
+read from file line:
+Text should be one-sentence-per-line, with empty lines between documents.
+
+
+line after convert to unicode:
+Text should be one-sentence-per-line, with empty lines between documents.
+
+
+basic unicode convert:
+Text should be one-sentence-per-line, with empty lines between documents.
+
+basic clean:
+Text should be one-sentence-per-line, with empty lines between documents.
+
+basic chinese:
+Text should be one-sentence-per-line, with empty lines between documents.
+
+basic whitespace_tokenize:
+Text should be one-sentence-per-line, with empty lines between documents.
+
+basic lower token:
+text
+basic accents:
+text
+basic punc:
+['text']
+
+basic lower token:
+should
+basic accents:
+should
+basic punc:
+['should']
+
+basic lower token:
+be
+basic accents:
+be
+basic punc:
+['be']
+
+basic lower token:
+one-sentence-per-line,
+basic accents:
+one-sentence-per-line,
+basic punc:
+['one', '-', 'sentence', '-', 'per', '-', 'line', ',']
+
+basic lower token:
+with
+basic accents:
+with
+basic punc:
+['with']
+
+basic lower token:
+empty
+basic accents:
+empty
+basic punc:
+['empty']
+
+basic lower token:
+lines
+basic accents:
+lines
+basic punc:
+['lines']
+
+basic lower token:
+between
+basic accents:
+between
+basic punc:
+['between']
+
+basic lower token:
+documents.
+basic accents:
+documents.
+basic punc:
+['documents', '.']
+
+basic split tokens:
+['text', 'should', 'be', 'one', '-', 'sentence', '-', 'per', '-', 'line', ',', 'with', 'empty', 'lines', 'between', 'documents', '.']
+
+basic tokenize output:
+['text', 'should', 'be', 'one', '-', 'sentence', '-', 'per', '-', 'line', ',', 'with', 'empty', 'lines', 'between', 'documents', '.']
+
+wordpiece tokenize input:
+text
+
+wordpiece unicode convert:
+text
+
+wordpiece whitespace:
+text
+substr:text start:0 end:4
+text is in vocab
+wordpiece tokenize output:
+['text']
+
+wordpiece tokenize input:
+should
+
+wordpiece unicode convert:
+should
+
+wordpiece whitespace:
+should
+substr:should start:0 end:6
+should is in vocab
+wordpiece tokenize output:
+['should']
+
+wordpiece tokenize input:
+be
+
+wordpiece unicode convert:
+be
+
+wordpiece whitespace:
+be
+substr:be start:0 end:2
+be is in vocab
+wordpiece tokenize output:
+['be']
+
+wordpiece tokenize input:
+one
+
+wordpiece unicode convert:
+one
+
+wordpiece whitespace:
+one
+substr:one start:0 end:3
+one is in vocab
+wordpiece tokenize output:
+['one']
+
+wordpiece tokenize input:
+-
+
+wordpiece unicode convert:
+-
+
+wordpiece whitespace:
+-
+substr:- start:0 end:1
+- is in vocab
+wordpiece tokenize output:
+['-']
+
+wordpiece tokenize input:
+sentence
+
+wordpiece unicode convert:
+sentence
+
+wordpiece whitespace:
+sentence
+substr:sentence start:0 end:8
+sentence is in vocab
+wordpiece tokenize output:
+['sentence']
+
+wordpiece tokenize input:
+-
+
+wordpiece unicode convert:
+-
+
+wordpiece whitespace:
+-
+substr:- start:0 end:1
+- is in vocab
+wordpiece tokenize output:
+['-']
+
+wordpiece tokenize input:
+per
+
+wordpiece unicode convert:
+per
+
+wordpiece whitespace:
+per
+substr:per start:0 end:3
+per is in vocab
+wordpiece tokenize output:
+['per']
+
+wordpiece tokenize input:
+-
+
+wordpiece unicode convert:
+-
+
+wordpiece whitespace:
+-
+substr:- start:0 end:1
+- is in vocab
+wordpiece tokenize output:
+['-']
+
+wordpiece tokenize input:
+line
+
+wordpiece unicode convert:
+line
+
+wordpiece whitespace:
+line
+substr:line start:0 end:4
+line is in vocab
+wordpiece tokenize output:
+['line']
+
+wordpiece tokenize input:
+,
+
+wordpiece unicode convert:
+,
+
+wordpiece whitespace:
+,
+substr:, start:0 end:1
+, is in vocab
+wordpiece tokenize output:
+[',']
+
+wordpiece tokenize input:
+with
+
+wordpiece unicode convert:
+with
+
+wordpiece whitespace:
+with
+substr:with start:0 end:4
+with is in vocab
+wordpiece tokenize output:
+['with']
+
+wordpiece tokenize input:
+empty
+
+wordpiece unicode convert:
+empty
+
+wordpiece whitespace:
+empty
+substr:empty start:0 end:5
+empty is in vocab
+wordpiece tokenize output:
+['empty']
+
+wordpiece tokenize input:
+lines
+
+wordpiece unicode convert:
+lines
+
+wordpiece whitespace:
+lines
+substr:lines start:0 end:5
+lines is in vocab
+wordpiece tokenize output:
+['lines']
+
+wordpiece tokenize input:
+between
+
+wordpiece unicode convert:
+between
+
+wordpiece whitespace:
+between
+substr:between start:0 end:7
+between is in vocab
+wordpiece tokenize output:
+['between']
+
+wordpiece tokenize input:
+documents
+
+wordpiece unicode convert:
+documents
+
+wordpiece whitespace:
+documents
+substr:documents start:0 end:9
+documents is in vocab
+wordpiece tokenize output:
+['documents']
+
+wordpiece tokenize input:
+.
+
+wordpiece unicode convert:
+.
+
+wordpiece whitespace:
+.
+substr:. start:0 end:1
+. is in vocab
+wordpiece tokenize output:
+['.']
+
+after tokenize:
+['text', 'should', 'be', 'one', '-', 'sentence', '-', 'per', '-', 'line', ',', 'with', 'empty', 'lines', 'between', 'documents', '.']
+
+read from file line:
+This sample text is public domain and was randomly selected from Project Guttenberg.
+
+
+line after convert to unicode:
+This sample text is public domain and was randomly selected from Project Guttenberg.
+
+
+basic unicode convert:
+This sample text is public domain and was randomly selected from Project Guttenberg.
+
+basic clean:
+This sample text is public domain and was randomly selected from Project Guttenberg.
+
+basic chinese:
+This sample text is public domain and was randomly selected from Project Guttenberg.
+
+basic whitespace_tokenize:
+This sample text is public domain and was randomly selected from Project Guttenberg.
+
+basic lower token:
+this
+basic accents:
+this
+basic punc:
+['this']
+
+basic lower token:
+sample
+basic accents:
+sample
+basic punc:
+['sample']
+
+basic lower token:
+text
+basic accents:
+text
+basic punc:
+['text']
+
+basic lower token:
+is
+basic accents:
+is
+basic punc:
+['is']
+
+basic lower token:
+public
+basic accents:
+public
+basic punc:
+['public']
+
+basic lower token:
+domain
+basic accents:
+domain
+basic punc:
+['domain']
+
+basic lower token:
+and
+basic accents:
+and
+basic punc:
+['and']
+
+basic lower token:
+was
+basic accents:
+was
+basic punc:
+['was']
+
+basic lower token:
+randomly
+basic accents:
+randomly
+basic punc:
+['randomly']
+
+basic lower token:
+selected
+basic accents:
+selected
+basic punc:
+['selected']
+
+basic lower token:
+from
+basic accents:
+from
+basic punc:
+['from']
+
+basic lower token:
+project
+basic accents:
+project
+basic punc:
+['project']
+
+basic lower token:
+guttenberg.
+basic accents:
+guttenberg.
+basic punc:
+['guttenberg', '.']
+
+basic split tokens:
+['this', 'sample', 'text', 'is', 'public', 'domain', 'and', 'was', 'randomly', 'selected', 'from', 'project', 'guttenberg', '.']
+
+basic tokenize output:
+['this', 'sample', 'text', 'is', 'public', 'domain', 'and', 'was', 'randomly', 'selected', 'from', 'project', 'guttenberg', '.']
+
+wordpiece tokenize input:
+this
+
+wordpiece unicode convert:
+this
+
+wordpiece whitespace:
+this
+substr:this start:0 end:4
+this is in vocab
+wordpiece tokenize output:
+['this']
+
+wordpiece tokenize input:
+sample
+
+wordpiece unicode convert:
+sample
+
+wordpiece whitespace:
+sample
+substr:sample start:0 end:6
+sample is in vocab
+wordpiece tokenize output:
+['sample']
+
+wordpiece tokenize input:
+text
+
+wordpiece unicode convert:
+text
+
+wordpiece whitespace:
+text
+substr:text start:0 end:4
+text is in vocab
+wordpiece tokenize output:
+['text']
+
+wordpiece tokenize input:
+is
+
+wordpiece unicode convert:
+is
+
+wordpiece whitespace:
+is
+substr:is start:0 end:2
+is is in vocab
+wordpiece tokenize output:
+['is']
+
+wordpiece tokenize input:
+public
+
+wordpiece unicode convert:
+public
+
+wordpiece whitespace:
+public
+substr:public start:0 end:6
+public is in vocab
+wordpiece tokenize output:
+['public']
+
+wordpiece tokenize input:
+domain
+
+wordpiece unicode convert:
+domain
+
+wordpiece whitespace:
+domain
+substr:domain start:0 end:6
+domain is in vocab
+wordpiece tokenize output:
+['domain']
+
+wordpiece tokenize input:
+and
+
+wordpiece unicode convert:
+and
+
+wordpiece whitespace:
+and
+substr:and start:0 end:3
+and is in vocab
+wordpiece tokenize output:
+['and']
+
+wordpiece tokenize input:
+was
+
+wordpiece unicode convert:
+was
+
+wordpiece whitespace:
+was
+substr:was start:0 end:3
+was is in vocab
+wordpiece tokenize output:
+['was']
+
+wordpiece tokenize input:
+randomly
+
+wordpiece unicode convert:
+randomly
+
+wordpiece whitespace:
+randomly
+substr:randomly start:0 end:8
+randomly is in vocab
+wordpiece tokenize output:
+['randomly']
+
+wordpiece tokenize input:
+selected
+
+wordpiece unicode convert:
+selected
+
+wordpiece whitespace:
+selected
+substr:selected start:0 end:8
+selected is in vocab
+wordpiece tokenize output:
+['selected']
+
+wordpiece tokenize input:
+from
+
+wordpiece unicode convert:
+from
+
+wordpiece whitespace:
+from
+substr:from start:0 end:4
+from is in vocab
+wordpiece tokenize output:
+['from']
+
+wordpiece tokenize input:
+project
+
+wordpiece unicode convert:
+project
+
+wordpiece whitespace:
+project
+substr:project start:0 end:7
+project is in vocab
+wordpiece tokenize output:
+['project']
+
+wordpiece tokenize input:
+guttenberg
+
+wordpiece unicode convert:
+guttenberg
+
+wordpiece whitespace:
+guttenberg
+substr:guttenberg start:0 end:10
+substr:guttenber start:0 end:9
+substr:guttenbe start:0 end:8
+substr:guttenb start:0 end:7
+substr:gutten start:0 end:6
+substr:gutte start:0 end:5
+substr:gutt start:0 end:4
+substr:gut start:0 end:3
+gut is in vocab
+substr:tenberg start:3 end:10
+start:3 substr:##tenberg
+##tenberg is in vocab
+wordpiece tokenize output:
+['gut', '##tenberg']
+
+wordpiece tokenize input:
+.
+
+wordpiece unicode convert:
+.
+
+wordpiece whitespace:
+.
+substr:. start:0 end:1
+. is in vocab
+wordpiece tokenize output:
+['.']
+
+after tokenize:
+['this', 'sample', 'text', 'is', 'public', 'domain', 'and', 'was', 'randomly', 'selected', 'from', 'project', 'gut', '##tenberg', '.']
+
+read from file line:
+
+
+
+line after convert to unicode:
+
+
+
+basic unicode convert:
+
+
+basic clean:
+
+
+basic chinese:
+
+
+basic whitespace_tokenize:
+
+
+basic split tokens:
+[]
+
+basic tokenize output:
+[]
+
+after tokenize:
+[]
+
+read from file line:
+form of a plain gold ring.
+
+
+line after convert to unicode:
+form of a plain gold ring.
+
+
+basic unicode convert:
+form of a plain gold ring.
+
+basic clean:
+form of a plain gold ring.
+
+basic chinese:
+form of a plain gold ring.
+
+basic whitespace_tokenize:
+form of a plain gold ring.
+
+basic lower token:
+form
+basic accents:
+form
+basic punc:
+['form']
+
+basic lower token:
+of
+basic accents:
+of
+basic punc:
+['of']
+
+basic lower token:
+a
+basic accents:
+a
+basic punc:
+['a']
+
+basic lower token:
+plain
+basic accents:
+plain
+basic punc:
+['plain']
+
+basic lower token:
+gold
+basic accents:
+gold
+basic punc:
+['gold']
+
+basic lower token:
+ring.
+basic accents:
+ring.
+basic punc:
+['ring', '.']
+
+basic split tokens:
+['form', 'of', 'a', 'plain', 'gold', 'ring', '.']
+
+basic tokenize output:
+['form', 'of', 'a', 'plain', 'gold', 'ring', '.']
+
+wordpiece tokenize input:
+form
+
+wordpiece unicode convert:
+form
+
+wordpiece whitespace:
+form
+substr:form start:0 end:4
+form is in vocab
+wordpiece tokenize output:
+['form']
+
+wordpiece tokenize input:
+of
+
+wordpiece unicode convert:
+of
+
+wordpiece whitespace:
+of
+substr:of start:0 end:2
+of is in vocab
+wordpiece tokenize output:
+['of']
+
+wordpiece tokenize input:
+a
+
+wordpiece unicode convert:
+a
+
+wordpiece whitespace:
+a
+substr:a start:0 end:1
+a is in vocab
+wordpiece tokenize output:
+['a']
+
+wordpiece tokenize input:
+plain
+
+wordpiece unicode convert:
+plain
+
+wordpiece whitespace:
+plain
+substr:plain start:0 end:5
+plain is in vocab
+wordpiece tokenize output:
+['plain']
+
+wordpiece tokenize input:
+gold
+
+wordpiece unicode convert:
+gold
+
+wordpiece whitespace:
+gold
+substr:gold start:0 end:4
+gold is in vocab
+wordpiece tokenize output:
+['gold']
+
+wordpiece tokenize input:
+ring
+
+wordpiece unicode convert:
+ring
+
+wordpiece whitespace:
+ring
+substr:ring start:0 end:4
+ring is in vocab
+wordpiece tokenize output:
+['ring']
+
+wordpiece tokenize input:
+.
+
+wordpiece unicode convert:
+.
+
+wordpiece whitespace:
+.
+substr:. start:0 end:1
+. is in vocab
+wordpiece tokenize output:
+['.']
+
+after tokenize:
+['form', 'of', 'a', 'plain', 'gold', 'ring', '.']
+
+read from file line:
+Looking at it more attentively, he saw that it bore the inscription, "May to Cass."
+
+
+line after convert to unicode:
+Looking at it more attentively, he saw that it bore the inscription, "May to Cass."
+
+
+basic unicode convert:
+Looking at it more attentively, he saw that it bore the inscription, "May to Cass."
+
+basic clean:
+Looking at it more attentively, he saw that it bore the inscription, "May to Cass."
+
+basic chinese:
+Looking at it more attentively, he saw that it bore the inscription, "May to Cass."
+
+basic whitespace_tokenize:
+Looking at it more attentively, he saw that it bore the inscription, "May to Cass."
+
+basic lower token:
+looking
+basic accents:
+looking
+basic punc:
+['looking']
+
+basic lower token:
+at
+basic accents:
+at
+basic punc:
+['at']
+
+basic lower token:
+it
+basic accents:
+it
+basic punc:
+['it']
+
+basic lower token:
+more
+basic accents:
+more
+basic punc:
+['more']
+
+basic lower token:
+attentively,
+basic accents:
+attentively,
+basic punc:
+['attentively', ',']
+
+basic lower token:
+he
+basic accents:
+he
+basic punc:
+['he']
+
+basic lower token:
+saw
+basic accents:
+saw
+basic punc:
+['saw']
+
+basic lower token:
+that
+basic accents:
+that
+basic punc:
+['that']
+
+basic lower token:
+it
+basic accents:
+it
+basic punc:
+['it']
+
+basic lower token:
+bore
+basic accents:
+bore
+basic punc:
+['bore']
+
+basic lower token:
+the
+basic accents:
+the
+basic punc:
+['the']
+
+basic lower token:
+inscription,
+basic accents:
+inscription,
+basic punc:
+['inscription', ',']
+
+basic lower token:
+"may
+basic accents:
+"may
+basic punc:
+['"', 'may']
+
+basic lower token:
+to
+basic accents:
+to
+basic punc:
+['to']
+
+basic lower token:
+cass."
+basic accents:
+cass."
+basic punc:
+['cass', '.', '"']
+
+basic split tokens:
+['looking', 'at', 'it', 'more', 'attentively', ',', 'he', 'saw', 'that', 'it', 'bore', 'the', 'inscription', ',', '"', 'may', 'to', 'cass', '.', '"']
+
+basic tokenize output:
+['looking', 'at', 'it', 'more', 'attentively', ',', 'he', 'saw', 'that', 'it', 'bore', 'the', 'inscription', ',', '"', 'may', 'to', 'cass', '.', '"']
+
+wordpiece tokenize input:
+looking
+
+wordpiece unicode convert:
+looking
+
+wordpiece whitespace:
+looking
+substr:looking start:0 end:7
+looking is in vocab
+wordpiece tokenize output:
+['looking']
+
+wordpiece tokenize input:
+at
+
+wordpiece unicode convert:
+at
+
+wordpiece whitespace:
+at
+substr:at start:0 end:2
+at is in vocab
+wordpiece tokenize output:
+['at']
+
+wordpiece tokenize input:
+it
+
+wordpiece unicode convert:
+it
+
+wordpiece whitespace:
+it
+substr:it start:0 end:2
+it is in vocab
+wordpiece tokenize output:
+['it']
+
+wordpiece tokenize input:
+more
+
+wordpiece unicode convert:
+more
+
+wordpiece whitespace:
+more
+substr:more start:0 end:4
+more is in vocab
+wordpiece tokenize output:
+['more']
+
+wordpiece tokenize input:
+attentively
+
+wordpiece unicode convert:
+attentively
+
+wordpiece whitespace:
+attentively
+substr:attentively start:0 end:11
+substr:attentivel start:0 end:10
+substr:attentive start:0 end:9
+substr:attentiv start:0 end:8
+substr:attenti start:0 end:7
+substr:attent start:0 end:6
+substr:atten start:0 end:5
+substr:atte start:0 end:4
+substr:att start:0 end:3
+substr:at start:0 end:2
+at is in vocab
+substr:tentively start:2 end:11
+start:2 substr:##tentively
+substr:tentivel start:2 end:10
+start:2 substr:##tentivel
+substr:tentive start:2 end:9
+start:2 substr:##tentive
+substr:tentiv start:2 end:8
+start:2 substr:##tentiv
+substr:tenti start:2 end:7
+start:2 substr:##tenti
+substr:tent start:2 end:6
+start:2 substr:##tent
+substr:ten start:2 end:5
+start:2 substr:##ten
+##ten is in vocab
+substr:tively start:5 end:11
+start:5 substr:##tively
+##tively is in vocab
+wordpiece tokenize output:
+['at', '##ten', '##tively']
+
+wordpiece tokenize input:
+,
+
+wordpiece unicode convert:
+,
+
+wordpiece whitespace:
+,
+substr:, start:0 end:1
+, is in vocab
+wordpiece tokenize output:
+[',']
+
+wordpiece tokenize input:
+he
+
+wordpiece unicode convert:
+he
+
+wordpiece whitespace:
+he
+substr:he start:0 end:2
+he is in vocab
+wordpiece tokenize output:
+['he']
+
+wordpiece tokenize input:
+saw
+
+wordpiece unicode convert:
+saw
+
+wordpiece whitespace:
+saw
+substr:saw start:0 end:3
+saw is in vocab
+wordpiece tokenize output:
+['saw']
+
+wordpiece tokenize input:
+that
+
+wordpiece unicode convert:
+that
+
+wordpiece whitespace:
+that
+substr:that start:0 end:4
+that is in vocab
+wordpiece tokenize output:
+['that']
+
+wordpiece tokenize input:
+it
+
+wordpiece unicode convert:
+it
+
+wordpiece whitespace:
+it
+substr:it start:0 end:2
+it is in vocab
+wordpiece tokenize output:
+['it']
+
+wordpiece tokenize input:
+bore
+
+wordpiece unicode convert:
+bore
+
+wordpiece whitespace:
+bore
+substr:bore start:0 end:4
+bore is in vocab
+wordpiece tokenize output:
+['bore']
+
+wordpiece tokenize input:
+the
+
+wordpiece unicode convert:
+the
+
+wordpiece whitespace:
+the
+substr:the start:0 end:3
+the is in vocab
+wordpiece tokenize output:
+['the']
+
+wordpiece tokenize input:
+inscription
+
+wordpiece unicode convert:
+inscription
+
+wordpiece whitespace:
+inscription
+substr:inscription start:0 end:11
+inscription is in vocab
+wordpiece tokenize output:
+['inscription']
+
+wordpiece tokenize input:
+,
+
+wordpiece unicode convert:
+,
+
+wordpiece whitespace:
+,
+substr:, start:0 end:1
+, is in vocab
+wordpiece tokenize output:
+[',']
+
+wordpiece tokenize input:
+"
+
+wordpiece unicode convert:
+"
+
+wordpiece whitespace:
+"
+substr:" start:0 end:1
+" is in vocab
+wordpiece tokenize output:
+['"']
+
+wordpiece tokenize input:
+may
+
+wordpiece unicode convert:
+may
+
+wordpiece whitespace:
+may
+substr:may start:0 end:3
+may is in vocab
+wordpiece tokenize output:
+['may']
+
+wordpiece tokenize input:
+to
+
+wordpiece unicode convert:
+to
+
+wordpiece whitespace:
+to
+substr:to start:0 end:2
+to is in vocab
+wordpiece tokenize output:
+['to']
+
+wordpiece tokenize input:
+cass
+
+wordpiece unicode convert:
+cass
+
+wordpiece whitespace:
+cass
+substr:cass start:0 end:4
+cass is in vocab
+wordpiece tokenize output:
+['cass']
+
+wordpiece tokenize input:
+.
+
+wordpiece unicode convert:
+.
+
+wordpiece whitespace:
+.
+substr:. start:0 end:1
+. is in vocab
+wordpiece tokenize output:
+['.']
+
+wordpiece tokenize input:
+"
+
+wordpiece unicode convert:
+"
+
+wordpiece whitespace:
+"
+substr:" start:0 end:1
+" is in vocab
+wordpiece tokenize output:
+['"']
+
+after tokenize:
+['looking', 'at', 'it', 'more', 'at', '##ten', '##tively', ',', 'he', 'saw', 'that', 'it', 'bore', 'the', 'inscription', ',', '"', 'may', 'to', 'cass', '.', '"']
+
+read from file line:
+Like most of his fellow gold-seekers, Cass was superstitious.
+
+line after convert to unicode:
+Like most of his fellow gold-seekers, Cass was superstitious.
+
+basic unicode convert:
+Like most of his fellow gold-seekers, Cass was superstitious.
+
+basic clean:
+Like most of his fellow gold-seekers, Cass was superstitious.
+
+basic chinese:
+Like most of his fellow gold-seekers, Cass was superstitious.
+
+basic whitespace_tokenize:
+Like most of his fellow gold-seekers, Cass was superstitious.
+
+basic lower token:
+like
+basic accents:
+like
+basic punc:
+['like']
+
+basic lower token:
+most
+basic accents:
+most
+basic punc:
+['most']
+
+basic lower token:
+of
+basic accents:
+of
+basic punc:
+['of']
+
+basic lower token:
+his
+basic accents:
+his
+basic punc:
+['his']
+
+basic lower token:
+fellow
+basic accents:
+fellow
+basic punc:
+['fellow']
+
+basic lower token:
+gold-seekers,
+basic accents:
+gold-seekers,
+basic punc:
+['gold', '-', 'seekers', ',']
+
+basic lower token:
+cass
+basic accents:
+cass
+basic punc:
+['cass']
+
+basic lower token:
+was
+basic accents:
+was
+basic punc:
+['was']
+
+basic lower token:
+superstitious.
+basic accents:
+superstitious.
+basic punc:
+['superstitious', '.']
+
+basic split tokens:
+['like', 'most', 'of', 'his', 'fellow', 'gold', '-', 'seekers', ',', 'cass', 'was', 'superstitious', '.']
+
+basic tokenize output:
+['like', 'most', 'of', 'his', 'fellow', 'gold', '-', 'seekers', ',', 'cass', 'was', 'superstitious', '.']
+
+wordpiece tokenize input:
+like
+
+wordpiece unicode convert:
+like
+
+wordpiece whitespace:
+like
+substr:like start:0 end:4
+like is in vocab
+wordpiece tokenize output:
+['like']
+
+wordpiece tokenize input:
+most
+
+wordpiece unicode convert:
+most
+
+wordpiece whitespace:
+most
+substr:most start:0 end:4
+most is in vocab
+wordpiece tokenize output:
+['most']
+
+wordpiece tokenize input:
+of
+
+wordpiece unicode convert:
+of
+
+wordpiece whitespace:
+of
+substr:of start:0 end:2
+of is in vocab
+wordpiece tokenize output:
+['of']
+
+wordpiece tokenize input:
+his
+
+wordpiece unicode convert:
+his
+
+wordpiece whitespace:
+his
+substr:his start:0 end:3
+his is in vocab
+wordpiece tokenize output:
+['his']
+
+wordpiece tokenize input:
+fellow
+
+wordpiece unicode convert:
+fellow
+
+wordpiece whitespace:
+fellow
+substr:fellow start:0 end:6
+fellow is in vocab
+wordpiece tokenize output:
+['fellow']
+
+wordpiece tokenize input:
+gold
+
+wordpiece unicode convert:
+gold
+
+wordpiece whitespace:
+gold
+substr:gold start:0 end:4
+gold is in vocab
+wordpiece tokenize output:
+['gold']
+
+wordpiece tokenize input:
+-
+
+wordpiece unicode convert:
+-
+
+wordpiece whitespace:
+-
+substr:- start:0 end:1
+- is in vocab
+wordpiece tokenize output:
+['-']
+
+wordpiece tokenize input:
+seekers
+
+wordpiece unicode convert:
+seekers
+
+wordpiece whitespace:
+seekers
+substr:seekers start:0 end:7
+seekers is in vocab
+wordpiece tokenize output:
+['seekers']
+
+wordpiece tokenize input:
+,
+
+wordpiece unicode convert:
+,
+
+wordpiece whitespace:
+,
+substr:, start:0 end:1
+, is in vocab
+wordpiece tokenize output:
+[',']
+
+wordpiece tokenize input:
+cass
+
+wordpiece unicode convert:
+cass
+
+wordpiece whitespace:
+cass
+substr:cass start:0 end:4
+cass is in vocab
+wordpiece tokenize output:
+['cass']
+
+wordpiece tokenize input:
+was
+
+wordpiece unicode convert:
+was
+
+wordpiece whitespace:
+was
+substr:was start:0 end:3
+was is in vocab
+wordpiece tokenize output:
+['was']
+
+wordpiece tokenize input:
+superstitious
+
+wordpiece unicode convert:
+superstitious
+
+wordpiece whitespace:
+superstitious
+substr:superstitious start:0 end:13
+substr:superstitiou start:0 end:12
+substr:superstitio start:0 end:11
+substr:superstiti start:0 end:10
+substr:superstit start:0 end:9
+substr:supersti start:0 end:8
+substr:superst start:0 end:7
+substr:supers start:0 end:6
+substr:super start:0 end:5
+super is in vocab
+substr:stitious start:5 end:13
+start:5 substr:##stitious
+substr:stitiou start:5 end:12
+start:5 substr:##stitiou
+substr:stitio start:5 end:11
+start:5 substr:##stitio
+substr:stiti start:5 end:10
+start:5 substr:##stiti
+substr:stit start:5 end:9
+start:5 substr:##stit
+substr:sti start:5 end:8
+start:5 substr:##sti
+##sti is in vocab
+substr:tious start:8 end:13
+start:8 substr:##tious
+##tious is in vocab
+wordpiece tokenize output:
+['super', '##sti', '##tious']
+
+wordpiece tokenize input:
+.
+
+wordpiece unicode convert:
+.
+
+wordpiece whitespace:
+.
+substr:. start:0 end:1
+. is in vocab
+wordpiece tokenize output:
+['.']
+
+after tokenize:
+['like', 'most', 'of', 'his', 'fellow', 'gold', '-', 'seekers', ',', 'cass', 'was', 'super', '##sti', '##tious', '.']
+
+read from file line:
+
+
+line after convert to unicode:
+
+
+all document:
+[[['form', 'of', 'a', 'plain', 'gold', 'ring', '.'], ['looking', 'at', 'it', 'more', 'at', '##ten', '##tively', ',', 'he', 'saw', 'that', 'it', 'bore', 'the', 'inscription', ',', '"', 'may', 'to', 'cass', '.', '"'], ['like', 'most', 'of', 'his', 'fellow', 'gold', '-', 'seekers', ',', 'cass', 'was', 'super', '##sti', '##tious', '.']], [['this', 'text', 'is', 'included', 'to', 'make', 'sure', 'unicode', 'is', 'handled', 'properly', ':', '力', '加', '勝', '北', '区', 'ᴵ', '##ᴺ', '##ᵀ', '##ᵃ', '##ছ', '##জ', '##ট', '##ড', '##ণ', '##ত']], [['something', 'glitter', '##ed', 'in', 'the', 'nearest', 'red', 'pool', 'before', 'him', '.'], ['gold', ',', 'surely', '!'], ['text', 'should', 'be', 'one', '-', 'sentence', '-', 'per', '-', 'line', ',', 'with', 'empty', 'lines', 'between', 'documents', '.'], ['this', 'sample', 'text', 'is', 'public', 'domain', 'and', 'was', 'randomly', 'selected', 'from', 'project', 'gut', '##tenberg', '.']]]
+
+target_seq_length:125
+i:0 len(current_chunk):1
+i:1 len(current_chunk):2
+i:2 len(current_chunk):3
+doc instance i:2 current_length:44
+len(current_chunk):3 a_end:2
+target_seq_length:125
+i:0 len(current_chunk):1
+doc instance i:0 current_length:27
+len(current_chunk):1 a_end:1
+target_seq_length:125
+i:0 len(current_chunk):1
+i:1 len(current_chunk):2
+i:2 len(current_chunk):3
+i:3 len(current_chunk):4
+doc instance i:3 current_length:47
+len(current_chunk):4 a_end:1
+target_seq_length:125
+i:0 len(current_chunk):1
+i:1 len(current_chunk):2
+i:2 len(current_chunk):3
+doc instance i:2 current_length:44
+len(current_chunk):3 a_end:2
+target_seq_length:125
+i:0 len(current_chunk):1
+doc instance i:0 current_length:27
+len(current_chunk):1 a_end:1
+target_seq_length:125
+i:0 len(current_chunk):1
+i:1 len(current_chunk):2
+i:2 len(current_chunk):3
+i:3 len(current_chunk):4
+doc instance i:3 current_length:47
+len(current_chunk):4 a_end:3
+target_seq_length:125
+i:0 len(current_chunk):1
+i:1 len(current_chunk):2
+i:2 len(current_chunk):3
+doc instance i:2 current_length:44
+len(current_chunk):3 a_end:1
+target_seq_length:125
+i:0 len(current_chunk):1
+doc instance i:0 current_length:27
+len(current_chunk):1 a_end:1
+target_seq_length:125
+i:0 len(current_chunk):1
+i:1 len(current_chunk):2
+i:2 len(current_chunk):3
+i:3 len(current_chunk):4
+doc instance i:3 current_length:47
+len(current_chunk):4 a_end:2
+target_seq_length:125
+i:0 len(current_chunk):1
+i:1 len(current_chunk):2
+i:2 len(current_chunk):3
+doc instance i:2 current_length:44
+len(current_chunk):3 a_end:1
+target_seq_length:125
+i:0 len(current_chunk):1
+doc instance i:0 current_length:27
+len(current_chunk):1 a_end:1
+target_seq_length:125
+i:0 len(current_chunk):1
+i:1 len(current_chunk):2
+i:2 len(current_chunk):3
+i:3 len(current_chunk):4
+doc instance i:3 current_length:47
+len(current_chunk):4 a_end:2
+target_seq_length:125
+i:0 len(current_chunk):1
+i:1 len(current_chunk):2
+i:2 len(current_chunk):3
+doc instance i:2 current_length:44
+len(current_chunk):3 a_end:1
+target_seq_length:125
+i:0 len(current_chunk):1
+doc instance i:0 current_length:27
+len(current_chunk):1 a_end:1
+target_seq_length:125
+i:0 len(current_chunk):1
+i:1 len(current_chunk):2
+i:2 len(current_chunk):3
+i:3 len(current_chunk):4
+doc instance i:3 current_length:47
+len(current_chunk):4 a_end:3
+created instances:
+[tokens: [CLS] form ##த a [MASK] gold ring . looking at it more at ##ten ##tively [MASK] he saw that it bore the 1873 , " may [MASK] [MASK] . " [SEP] like most of [MASK] fellow gold - seekers , cass was super ##sti ##tious . [SEP]
+segment_ids: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+is_random_next: False
+masked_lm_positions: 2 4 15 22 26 27 34
+masked_lm_labels: of plain , inscription to cass his
+
+, tokens: [CLS] this text is included to make sure unicode is handled properly : [MASK] 加 勝 北 区 ᴵ ##ᴺ ##ᵀ ##ᵃ ##ছ ##জ ##ট ##ড ##ণ ##ত [SEP] gold , [MASK] ! text should be one - sentence - per - [MASK] , with empty lines between documents . this [MASK] [MASK] is public domain and was randomly cayman from project [MASK] ##tenberg [MASK] [SEP]
+segment_ids: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+is_random_next: True
+masked_lm_positions: 13 26 31 42 51 52 53 59 62 64
+masked_lm_labels: 力 ##ণ surely line sample text is selected gut .
+
+, tokens: [CLS] something glitter ##ed in the nearest ##acies pool before him . [SEP] gold , surely ! text should be one [MASK] sentence - per [MASK] line , with empty [MASK] between documents . this sample text is public domain kang [MASK] randomly selected from project [MASK] ##tenberg . [SEP]
+segment_ids: 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+is_random_next: False
+masked_lm_positions: 7 21 25 30 33 40 41 46
+masked_lm_labels: red - - lines . and was gut
+
+, tokens: [CLS] form of a plain gold ring . looking at it more [MASK] ##ten ##tively [MASK] he saw [MASK] [MASK] bore the inscription , " may [MASK] cass . " [SEP] like [MASK] of his fellow gold - seekers , cass was [MASK] ##sti ##tious . [SEP]
+segment_ids: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+is_random_next: False
+masked_lm_positions: 12 15 18 19 26 32 42
+masked_lm_labels: at , that it to most super
+
+, tokens: [CLS] [MASK] text is included [MASK] make sure unicode is handled properly : 力 加 勝 北 区 [MASK] ##ᴺ ##ᵀ ##ᵃ [MASK] ##জ ##ট ##ড ##ণ ##ত [SEP] gold , surely ! text should be one - sentence - per - [MASK] , with empty lines between documents . this sample [MASK] [MASK] public domain and was randomly selected [MASK] project gut ##tenberg . [SEP]
+segment_ids: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+is_random_next: True
+masked_lm_positions: 1 5 13 18 22 42 46 52 53 60
+masked_lm_labels: this to 力 ᴵ ##ছ line lines text is from
+
+, tokens: [CLS] something glitter [MASK] in the nearest red pool before him . gold , surely ! text should be one [MASK] sentence [MASK] [MASK] - [MASK] , with [MASK] lines between documents . [SEP] this sample text is public domain experiment [MASK] randomly selected from project gut ##tenberg . [SEP]
+segment_ids: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+is_random_next: False
+masked_lm_positions: 3 20 22 23 25 28 40 41
+masked_lm_labels: ##ed - - per line empty and was
+
+, tokens: [CLS] form of a [MASK] gold [MASK] . [SEP] [MASK] at it more accepted [MASK] ##tively , he saw that it bore the inscription , " may to [MASK] . " like most of his fellow [MASK] - seekers , cass was super ##sti ##tious . [SEP]
+segment_ids: 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+is_random_next: False
+masked_lm_positions: 4 6 9 13 14 28 36
+masked_lm_labels: plain ring looking at ##ten cass gold
+
+, tokens: [CLS] this text is included [MASK] [MASK] [MASK] unicode is handled properly : [MASK] 加 勝 北 区 [MASK] [MASK] ##ᵀ ##ᵃ ##ছ ##জ ##ট ##ড ##ণ ##ত [SEP] text should be one - [MASK] - per - line ##val with empty lines between documents . this sample text is public domain [MASK] was randomly selected from project gut ##tenberg . [SEP]
+segment_ids: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+is_random_next: True
+masked_lm_positions: 5 6 7 13 18 19 34 39 52
+masked_lm_labels: to make sure 力 ᴵ ##ᴺ sentence , and
+
+, tokens: [CLS] something glitter ##ed in the [MASK] red pool before him . gold , surely [MASK] [SEP] text should be one [MASK] sentence - per - [MASK] , with empty lines between documents . this sample text is public domain [MASK] was randomly selected from project [MASK] ##tenberg . [SEP]
+segment_ids: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+is_random_next: False
+masked_lm_positions: 6 15 21 26 33 40 44 46
+masked_lm_labels: nearest ! - line . and from gut
+
+, tokens: [CLS] form of a plain [MASK] ring . [SEP] [MASK] at it more at ##ten ##astic , [MASK] saw that it bore the [MASK] , [MASK] may to cass . " like most of his fellow gold - [MASK] , cass was super ##sti ##tious . [SEP]
+segment_ids: 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+is_random_next: False
+masked_lm_positions: 5 9 15 17 23 25 38
+masked_lm_labels: gold looking ##tively he inscription " seekers
+
+, tokens: [CLS] this text is included to make sure unicode is handled properly : 力 加 勝 北 [MASK] ᴵ ##ᴺ ##ᵀ ##ᵃ [MASK] ##জ ##ট ##ড [MASK] ##ত [SEP] text should be one - sentence [MASK] per - line , with empty [MASK] between documents [MASK] this sample text is public domain [MASK] was randomly selected from [MASK] gut ##tenberg . [SEP]
+segment_ids: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+is_random_next: True
+masked_lm_positions: 17 22 26 35 42 43 45 52 57
+masked_lm_labels: 区 ##ছ ##ণ - lines between . and project
+
+, tokens: [CLS] something glitter [MASK] in the nearest red pool before him . gold , surely ! [SEP] text should be one [MASK] sentence [MASK] per - [MASK] , with empty lines between documents . [MASK] sample [MASK] is public domain and was randomly selected from project gut ##tenberg . [SEP]
+segment_ids: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+is_random_next: False
+masked_lm_positions: 3 15 20 21 23 26 34 36
+masked_lm_labels: ##ed ! one - - line this text
+
+, tokens: [CLS] [MASK] of a [MASK] gold ring [MASK] [SEP] looking at it more at ##ten ##tively , he saw that it archaeologist the [MASK] , " may [MASK] cass . " like most of his fellow gold - seekers , cass was super ##sti ##tious . [SEP]
+segment_ids: 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+is_random_next: False
+masked_lm_positions: 1 4 7 16 21 23 27
+masked_lm_labels: form plain . , bore inscription to
+
+, tokens: [CLS] this text is included to make sure [MASK] is [MASK] properly : 力 加 勝 北 区 wadi ##ᴺ ##ᵀ ##ᵃ ##ছ ##জ [MASK] ##ড ##ণ ##ত [SEP] something glitter ##ed in the nearest red pool before [MASK] . gold , [MASK] ! [MASK] should be one - sentence - per - line [MASK] with empty [MASK] between documents . [MASK] sample text is public domain and [MASK] randomly selected from project gut ##tenberg . [SEP]
+segment_ids: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+is_random_next: True
+masked_lm_positions: 8 10 18 24 38 42 44 51 54 57 61 68
+masked_lm_labels: unicode handled ᴵ ##ট him surely text per , lines this was
+
+, tokens: [CLS] something glitter ##ed in the nearest red pool before him . gold [MASK] surely ! text should be one - sentence - [MASK] - [MASK] , [MASK] empty lines between documents . [SEP] this sample text is public domain and [MASK] randomly selected from [MASK] mayhem ##tenberg . [SEP]
+segment_ids: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+is_random_next: False
+masked_lm_positions: 9 13 23 25 27 41 45 46
+masked_lm_labels: before , per line with was project gut
+
+] 15
+
+saving data

@@ -1,0 +1,11 @@
+This text is included to make sure Unicode is handled properly: 力加勝北区ᴵᴺᵀᵃছজটডণত
+
+
+Something glittered in the nearest red pool before him.
+Gold, surely!
+Text should be one-sentence-per-line, with empty lines between documents.
+This sample text is public domain and was randomly selected from Project Guttenberg.
+
+form of a plain gold ring.
+Looking at it more attentively, he saw that it bore the inscription, "May to Cass."
+Like most of his fellow gold-seekers, Cass was superstitious.
